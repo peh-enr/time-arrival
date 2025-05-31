@@ -1,0 +1,39 @@
+/*reset the css*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+  margin: 150px;
+  background-color: white;
+  position: flex;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.time-arrival {
+  background-color: rgb(23, 150, 36);
+  padding: 10px;
+  border: 2px solid rgb(44, 147, 215);
+  margin: 10px;
+}
+
+.location-time {
+  background-color: rgb(255, 255, 255);
+  border: 4px;
+  border-left-style: solid;
+  border-color: green;
+  border-radius: 0px;
+}
+
